@@ -374,7 +374,7 @@ function Result({ profileKey, onRestart }: { profileKey: ProfileKey; onRestart: 
         </div>
         <div className="mt-7">
           <a
-            href="#"
+            href="https://digitalwealthes.vercel.app"
             className="inline-flex w-full items-center justify-center rounded-2xl bg-[image:var(--gradient-brand)] px-6 py-4 font-display text-base font-bold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
           >
             Ver el contenido completo
