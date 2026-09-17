@@ -253,7 +253,7 @@ function QuizView({
   onChoose: (p: ProfileKey) => void;
   onBack: () => void;
 }) {
-  const q = questions[step];
+  const q = questions[step] ?? questions[0]!;
   return (
     <div className="mx-auto mt-14 max-w-2xl">
       <div key={q.id} className="glass-panel animate-fadeup rounded-[28px] p-6 shadow-[var(--shadow-panel)] sm:p-8">
