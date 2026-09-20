@@ -80,7 +80,7 @@ export const profiles: Record<ProfileKey, Profile> = {
     traits: [
       { label: "Modalidad", value: "Remota" },
       { label: "Ritmo", value: "Gradual" },
- { label: "Enfoque", value: "Autonomía" },
+      { label: "Enfoque", value: "Autonomía" },
     ],
     steps: [
       "Definir una sola habilidad digital para desarrollar primero",
