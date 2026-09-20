@@ -42,7 +42,6 @@ function Backdrop() {
         className="absolute bottom-0 -right-24 h-[420px] w-[420px] rounded-full bg-accent2/20 blur-[120px]"
         style={{ animation: "floaty 18s ease-in-out infinite reverse" }}
       />
-ecor
     </div>
   );
 }
