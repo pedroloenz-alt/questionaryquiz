@@ -5,7 +5,7 @@ import { profiles, questions, type ProfileKey } from "@/lib/quiz-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "RentasVivas — Diagnóstico de ingresos extra en 5 preguntas" },
+      { title: "MasterQuiz — Diagnóstico de ingresos extra en 5 preguntas" },
       {
         name: "description",
         content:
@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "RentasVivas — Diagnóstico de ingresos extra en 5 preguntas",
+        content: "MasterQuiz — Diagnóstico de ingresos extra en 5 preguntas",
       },
       {
         property: "og:description",
