@@ -5,7 +5,7 @@ import { profiles, questions, type ProfileKey } from "@/lib/quiz-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "MasterQuiz — Diagnóstico de ingresos extra en 5 preguntas" },
+      { title: "MasterQuiz - Diagnóstico de Oportunidades" },
       {
         name: "description",
         content:
@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "MasterQuiz — Diagnóstico de ingresos extra en 5 preguntas",
+        content: "MasterQuiz - Diagnóstico de Oportunidades",
       },
       {
         property: "og:description",
@@ -89,7 +89,7 @@ function Index() {
           <div className="grid size-9 place-items-center rounded-xl bg-white/10 font-display font-bold text-brand ring-1 ring-white/15 backdrop-blur-xl">
             R
           </div>
-          <span className="font-display text-lg font-bold tracking-tight">RentasVivas</span>
+          <span className="font-display text-lg font-bold tracking-tight">MyRewards</span>
         </nav>
 
         <div className="flex flex-1 flex-col justify-center py-10">
