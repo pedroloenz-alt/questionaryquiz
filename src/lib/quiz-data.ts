@@ -16,22 +16,11 @@ export const questions: QuizQuestion[] = [
   {
     id: "tiempo",
     question: "¿Cuánto tiempo libre tienes cada semana?",
-    hint: "Piensa en las horas reales, no en las ideales.",
     options: [
       { label: "Menos de 4 horas", profile: "digital" },
-      { label: "Entre 4 y 8 horas", profile: "digital" },
-      { label: "Entre 8 y 15 horas", profile: "servicios" },
+      { label: "Entre 4 y 8 horas", profile: "servicios" },
+      { label: "Entre 8 y 15 horas", profile: "creativo" },
       { label: "Más de 15 horas", profile: "comercial" },
-    ],
-  },
-  {
-    id: "momento",
-    question: "¿En qué momento del día rindes mejor?",
-    options: [
-      { label: "Temprano en la mañana", profile: "servicios" },
-      { label: "Durante la tarde", profile: "comercial" },
-      { label: "Por la noche", profile: "digital" },
-      { label: "Depende de la semana", profile: "creativo" },
     ],
   },
   {
@@ -55,26 +44,6 @@ export const questions: QuizQuestion[] = [
     ],
   },
   {
-    id: "modalidad",
-    question: "¿Cómo prefieres trabajar?",
-    options: [
-      { label: "Solo desde casa", profile: "digital" },
-      { label: "En casa y a veces fuera", profile: "servicios" },
-      { label: "En contacto con personas", profile: "comercial" },
-      { label: "Aún no lo tengo claro", profile: "creativo" },
-    ],
-  },
-  {
-    id: "herramientas",
-    question: "¿Con qué equipo cuentas hoy?",
-    options: [
-      { label: "Solo celular", profile: "creativo" },
-      { label: "Celular y computadora", profile: "digital" },
-      { label: "Computadora e internet estable", profile: "servicios" },
-      { label: "Equipo completo y espacio propio", profile: "comercial" },
-    ],
-  },
-  {
     id: "objetivo",
     question: "¿Cuál es tu objetivo principal ahora mismo?",
     options: [
@@ -82,26 +51,6 @@ export const questions: QuizQuestion[] = [
       { label: "Aprender una habilidad nueva", profile: "creativo" },
       { label: "Construir algo propio a largo plazo", profile: "digital" },
       { label: "Tener más autonomía sobre mi tiempo", profile: "comercial" },
-    ],
-  },
-  {
-    id: "ritmo",
-    question: "¿Cómo te llevas con la constancia?",
-    options: [
-      { label: "Necesito una guía paso a paso", profile: "servicios" },
-      { label: "Avanzo mejor con metas semanales", profile: "digital" },
-      { label: "Me organizo bastante bien solo", profile: "comercial" },
-      { label: "Voy por rachas de motivación", profile: "creativo" },
-    ],
-  },
-  {
-    id: "aprendizaje",
-    question: "¿Cómo prefieres aprender algo nuevo?",
-    options: [
-      { label: "Videos cortos y prácticos", profile: "creativo" },
-      { label: "Guías escritas que pueda releer", profile: "digital" },
-      { label: "Ejemplos reales y plantillas", profile: "servicios" },
-      { label: "Probando y ajustando sobre la marcha", profile: "comercial" },
     ],
   },
   {
@@ -131,7 +80,7 @@ export const profiles: Record<ProfileKey, Profile> = {
     traits: [
       { label: "Modalidad", value: "Remota" },
       { label: "Ritmo", value: "Gradual" },
-      { label: "Enfoque", value: "Autonomía" },
+ { label: "Enfoque", value: "Autonomía" },
     ],
     steps: [
       "Definir una sola habilidad digital para desarrollar primero",
